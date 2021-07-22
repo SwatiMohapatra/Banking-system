@@ -15,7 +15,7 @@ c.execute(''' CREATE TABLE IF NOT EXISTS user (
 )
 ''');
 
-c.execute(f"DROP TABLE account")
+#c.execute(f"DROP TABLE account")
 
 # create account table
 c.execute("""CREATE TABLE IF NOT EXISTS account
